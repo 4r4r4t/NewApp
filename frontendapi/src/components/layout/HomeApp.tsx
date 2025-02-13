@@ -1,5 +1,6 @@
 import React from 'react';
-
+import image from '../../../public/ctorial-dibujos-animados-1142-86197-removebg-preview.png'
+import  './HomeApp.css'
 const Home = () => {
   return (
     <div className="bg-white text-[#8B5A2B]"> {/* Fondo blanco y texto color madera */}
@@ -13,6 +14,9 @@ const Home = () => {
           mejor cuidado y detalle. Nuestros productos reflejan la tradición y el arte de nuestra tierra, combinando técnicas ancestrales con toques contemporáneos.
         </p>
       </section>
+      <div className="home-container">
+      <img src={image} alt="HomeImage" className="home-image" />
+    </div>
 
       {/* Sección sobre nosotros */}
       <section className="container mx-auto py-12 px-6">

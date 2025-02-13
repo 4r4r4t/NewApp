@@ -29,6 +29,7 @@ const QuienesSomos= () => {
               />
               </div>
               <h3 className="text-xl text-amber-50 font-bold font-mono">Raul Daniel Ararat Leon</h3>
+              <p className="text-md text-white mt-2 font-bold">HIJO DE DIOS</p>
               <p className="text-md text-white mt-2">Gracias al Pio por esta oportunidad</p>
             </div>
             </div>

@@ -32,12 +32,12 @@ function HeaderApp() {
           <div className="absolute right-0 mt-2 w-40 bg-white rounded-lg shadow-lg overflow-hidden">
             
             <button
-              onClick={() =>{ alert("Cerrando sesión...");
-                window.location.href = "/login";
+              onClick={() =>{ alert("Dios Los Bendiga.....");
+                //window.location.href = "/login";
             }}
             className="block w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-gray-200"
           >
-            Cerrar sesión
+            Pulsa aqui
             </button>
           </div>
         )}

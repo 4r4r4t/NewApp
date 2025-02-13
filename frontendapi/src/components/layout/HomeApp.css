@@ -1,0 +1,22 @@
+/* HomeApp.css */
+.home-container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;   
+  height: 80vh;           
+  background-color: #ffffff;  
+}
+
+.home-image {
+  max-width: 60%;    
+  max-height: 60%;   
+  object-fit: contain;  
+  border-radius: 10px;  
+  transition: transform 0.3s ease-in-out;  /* Transición suave */
+}
+
+.home-image:hover {
+  transform: scale(1.1);  /* Aumenta el tamaño un 10% al pasar el cursor */
+}
+
+  
